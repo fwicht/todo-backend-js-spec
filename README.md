@@ -14,3 +14,4 @@ In the home directory run
 ```bash
 http-server 
 ```
+and find your test environment available at [http://localhost:8080](http://localhost:8080).
