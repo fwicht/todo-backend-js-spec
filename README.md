@@ -12,6 +12,8 @@ npm install -g http-server
 ## Running
 In the home directory run
 ```bash
-http-server 
+http-server -p ${PORT}
 ```
-and find your test environment available at [http://localhost:8080](http://localhost:8080).
+and find your test environment available at [http://localhost:${PORT}](http://localhost:${PORT}).
+
+Here ${PORT} must either be substituted or exported.
